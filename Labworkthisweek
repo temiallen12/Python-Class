@@ -1,0 +1,64 @@
+#Answer to lab 1
+
+# List of 10 numbers
+# numbers = [3, 7, 1, 9, 4, 6, 2, 8, 5, 10]
+
+# sum variable
+# sum_total = 0
+
+# Repeat through the list and add each number to the sum_total
+# for num in numbers:
+    # sum_total += num
+
+# then print the result
+# print("The adding of the numbers is:", sum_total)
+
+
+# Answer to lab work 2
+# secret_number = 7  
+# guesses = 0
+
+# print("Guess the secret number (between 1 and 10). You have 5 tries!")
+
+# while guesses < 5:
+#    guess = int(input("Your guess: "))
+ #   guesses += 1
+
+   # if guess == secret_number:
+   #     print("You guessed it right! You win!")
+      #  break
+ #   else:
+     #   print("Wrong guess.")
+
+# if guess != secret_number:
+ #   print("Sorry, you lost. The secret number was", secret_number)
+
+# Answer to lab 3
+# Asking for number till you enter negative 
+# total = 0
+
+# while True:
+   # number = int(input("Enter a number (negative to stop): "))
+  #  if number < 0:
+      #  break
+  #  total += number
+
+# print("The sum of all entered numbers is:", total)
+
+# Ask for name until the users enter end 
+# while True:
+  #  name = input("Enter a name (type END to stop): ")
+  #  if name == "END":
+      #  break
+   # print("You entered:", name)
+
+# print("I am done.")
+# program to find the multiples of n
+# n = int(input("Enter a number to find its multiples: "))
+
+# for i in range(1, 11):
+  #  print(f"{n} x {i} = {n * i}")
+
+
+
+
